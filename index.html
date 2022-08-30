@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack calculator</title>
+</head>
+<p id="result">&nbsp</p>
+<body>
+    <!--load script-->
+    <script src="index.js"></script>
+
+    <h3>Stack calculator</h3>
+    <!-- choose how calculator work -->
+    <label for="cal_type">stack calculator type</label>
+    <select name="cal_type" id="cal_type">
+        <option value="sti">stack to item</option>
+        <option value="its">item to stack</option>
+    </select><br>
+
+    <!-- choose stack type -->
+    <label for="stack_type">choose stack type</label>
+    <select name="stack_type" id="stack_type">
+        <option value="st16">16 per stack</option>
+        <option value="st64">64 per stack</option>
+    </select><br>
+
+    <!-- input how much item or stack -->
+    <label for="item">item</label><br>
+    <input type="text" name="item" id="item"><br>
+    <label for="stack">stack</label><br>
+    <input type="text" name="stack" id="stack"><br><br>
+    
+    <button onclick="cal()">Submit</button>
+</body>
+</html>
