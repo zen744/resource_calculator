@@ -53,3 +53,8 @@ function cal(){
         }
     }
 }
+function clear_all(){
+    document.getElementById("item").value = ""
+    document.getElementById("stack").value = ""
+    document.getElementById("sb").value = ""
+}
