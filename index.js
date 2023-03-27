@@ -53,6 +53,7 @@ function cal(){
         }
     }
 }
+// clear value
 function clear_all(){
     document.getElementById("item").value = ""
     document.getElementById("stack").value = ""
